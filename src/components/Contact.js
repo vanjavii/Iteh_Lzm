@@ -53,11 +53,18 @@ class Contact extends Component {
                     type="email"
                     name="Email"
                     id="reviewer-email"
-                    placeholder="Vaše prezime:"
+                    placeholder="Vaš email:"
                     required
                   />
                 </Col>
                 <Col>
+                  <input
+                    type="text"
+                    name="Subject"
+                    id="reviewer-name"
+                    placeholder="Naslov:"
+                    required
+                  />
                   <textarea
                     name="Message"
                     id="reviewer-message"
