@@ -4,7 +4,9 @@ import First from "../components/First";
 import MainCarousel from "../components/Carousel";
 import Package from "../components/Package";
 import Contact from "../components/Contact";
+import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
+
 
 class Home extends Component {
   render() {
